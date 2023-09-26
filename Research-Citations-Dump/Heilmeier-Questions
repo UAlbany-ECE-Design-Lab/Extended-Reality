@@ -1,0 +1,37 @@
+GEORGE HEILMEIER Questions  
+
+1. What are you trying to do? Articulate your objectives using absolutely no jargon. What is the problem? Why is it hard?  
+
+    Develop and pilot the first AR/VR lab instruction for ECE at University at Albany. The problem is defining why the consumer would want to use this (Human Centered Project). This project is hard because everyone learns differently and at their own pace. 
+
+2. How is it done today, and what are the limits of current practice?  
+
+    It is done in person in a physical setting. The limitations are hardware restrictions (access to components). Limits of current practice would be lack of resources to purchase VR goggles as they are quite expensive.  
+
+3. What is new in your approach, and why do you think it will be successful?  
+
+    By bringing the (virtual) lab to the user we eliminate the need for "expensive" tools (ADALM2000) and long wait times for hardware components (back orders) and jump right into the fundamentals of ECE within the palm of their hands, using something as simple as their phones. 
+
+4. Who cares?  
+
+    The user cares, students, from the experienced to the novice, will benefit from having a virtual lab within their pockets. Learn fundamentals or review at your own pace with a hands-on immersive experience without needing to prepare hardware beforehand. 
+
+5. If you’re successful, what difference will it make? What applications are enabled as a result?  
+
+    If successful, students worldwide will have access to a library of electrical lab components and instruments so long as they have access to a mobile device. Students will be able to study or review by themselves or instructors will be able to lead classes and labs to more than just a classroom of students. 
+
+6. What are the risks?  
+
+    Limited to the hardware of the user's mobile device. Risk of lost time as users may feel virtual learning to be not as immersive or as valuable as learning in person 
+
+7. How much will it cost?  
+
+    The two main costs will be time for developing the software and the second may be for a VR headset if we decide to move past mobile phone support. 
+
+8. How long will it take?  
+
+    This project may take a few weeks to a couple of months, but for our group it may take up to a year since we have no experience in coding in C# or any game developing skills and 3D design/modeling.  
+
+9. What are the midterm and final “exams” to check for success? How will progress be measured?  
+
+    The midterm exam will have a functioning alpha version of the project where we can get user experience and input. We can also measure how well users respond to the project and see where we can take the final product. The final exam will check for if the project covers the end goals set. 
