@@ -14,3 +14,10 @@ Tasks for this project include developing initial requirement analysis and hardw
 It will involve using some AR/VR equipment and AR/VR development suite for iPhone/android
 This will require 3D modelling and associated geometric methods as well as coding skills in iOS and Android.
 For introductory reference: https://www.youtube.com/watch?v=rmLng9xsdpw&t=29s and https://library.educause.edu/topics/teaching-and-learning/extended-reality-xr   
+
+# Repository Contents
+# Hardware Dependencies
+# Software Dependencies
+# Replication
+# TO-DO
+# Helpful Resources
