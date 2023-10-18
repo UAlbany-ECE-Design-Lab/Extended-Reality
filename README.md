@@ -23,7 +23,7 @@ Provide a list of all the contents in this repository. Make it easy for someone 
 
 * **REPORT:** All repositories must include a PDF copy of the final report.
 * **FINAL PRESENTATION:** Copy of your final presentation slides.
-* **SOURCE** CODE: All source code related to the project in a very well-organized fashion.]
+* **SOURCE CODE:** All source code related to the project in a very well-organized fashion.]
 * **SIMULATIONS:** Include any SPICE, Simulink, or other simulations that will be useful for a future team.
 * **ANY DELIVERABLES:** Include anything that is relevant and helpful to either the stakeholder or next year's team.
 * **PASSWORDS/HOSTNAMES:** Include any usernames, passwords, and/or hostnames that are needed or useful (such as anything on a backend server). If you have this information, include two copies of the report. One copy named "REPORT_SENSITIVE.pdf" that contains an appendix with this information, and another copy that does not contain this information.
