@@ -14,13 +14,13 @@ Questions we may ask:
 
 - Use a leading example/picture 
 
-- Render a model of a cross section of a resistor 
+- Render a model of a cross-section of a resistor 
 
 - Show this is what we are trying to achieve in the virtual environment 
 
 - What are the tools that are available 
 
-- what are the suite of tools 
+- what is the suite of tools 
 
 - compare to oculus/meta, etc. 
 
@@ -28,15 +28,15 @@ Questions we may ask:
 
 
 
----- During the Meeting --------
+---- During the Meeting with Mr. Reynaldo Zabala --------
 - Open AR/VR exists
-- Magic Leap is platform and device specific
-- It's a customized android platform
-- Has its own built in OS
+- Magic Leap is platform and device-specific
+- It's a customized Android platform
+- Has its own built-in OS
 - Price is about 3400 base level
-- Unreal has a lot of better options for visuals and ais more favorable in terms of gaming designs. Also uses C++
+- Unreal has a lot of better options for visuals and is more favorable in terms of gaming designs. Also uses C++
 - Magic Leap has unity applications, has a lot of demonstrations
-- It has a lot of built in materials that we don't necessarily need to start from scratch if we were to use the device
-- It comes with a sourcr code
-- The supplier's  guidance is to go to forums like discord server, reddit or even telegram to learn and get more resources 
-about AR/Vr and Magic Leap
+- It has a lot of built-in materials that we don't necessarily need to start from scratch if we were to use the device
+- It comes with a source code
+- The supplier's  guidance is to go to forums like Discord server, Reddit or even Telegram to learn and get more resources 
+about AR/VR and Magic Leap
