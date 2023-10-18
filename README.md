@@ -17,6 +17,10 @@ For introductory reference: https://www.youtube.com/watch?v=rmLng9xsdpw&t=29s an
 
 # Repository Contents
 # Hardware Dependencies
+> What hardware would the next team need to replicate your work? Include links to specific equipment when possible.
+Who has the equipment (professor, stakeholder, etc...)? Do they need to purchase anything?
+Is anything needed to be assembled to replicate your work?
+What testing equipment did you use? (if applicable)
 # Software Dependencies
 # Replication
 # TO-DO
