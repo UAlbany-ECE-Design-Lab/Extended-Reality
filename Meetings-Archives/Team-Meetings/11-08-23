@@ -1,0 +1,15 @@
+Main Focus / Objective of this meeting: To be able to pick up a 3D model within the Environment
+
+- We got a 3D model resistor in the environment and is grabbable.
+
+Next:
+
+- We need it to hve some type of gravitational pull once it is dropped by the user. (Completed)
+
+Then:
+
+- We need to add texture and color on the resistor so that it resembles a resistor in real world. (somewhat done, still learning how)
+
+Then:
+
+- We did a lot of research and experimentations on adding textures. Also, played around fusion360 and getting more and more familiar with UE5
