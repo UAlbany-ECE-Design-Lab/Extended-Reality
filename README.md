@@ -1,5 +1,8 @@
 # Extended-Reality
 
+[comment]: <> (This is a comment, it will not be included)
+
+
 Engineering Education with Extended Reality (XR) 
 Sponsor: Professor Aveek Dutta, Department of Electrical & Computer Engineering 
 Desired Skills:  Programming, 3D modeling, and geometric methods 
@@ -12,7 +15,7 @@ Professor Dutta seeks a motivated team that will collaborate with his research l
 Two main target courses are: 1) Introduction to Circuits and 2) Introduction to Digital Circuits.
 Tasks for this project include developing initial requirement analysis and hardware/software requirements to build these applications.
 It will involve using some AR/VR equipment and AR/VR development suite for iPhone/android
-This will require 3D modelling and associated geometric methods as well as coding skills in iOS and Android.
+This will require 3D modeling and associated geometric methods as well as coding skills in iOS and Android.
 For introductory reference: https://www.youtube.com/watch?v=rmLng9xsdpw&t=29s and https://library.educause.edu/topics/teaching-and-learning/extended-reality-xr   
 
 //Template
