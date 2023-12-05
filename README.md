@@ -40,16 +40,20 @@ For introductory reference: https://www.youtube.com/watch?v=rmLng9xsdpw&t=29s an
 # Hardware Dependencies
 
 Hardware required is listed via Itemized-Budget.csv
+ 
 See:
+ 
 2022 - 2023 Documentation/Research-Citations-Dump/Itemized-Budget.csv
  
 The 2022 - 2023 XR capstone team provided their hardware.
 Future teams may need to request an order form to acquire the necessary hardware to replicate the project.
-  
+ 
 Teams may opt for an alternative option, but further testing is required for compatibility.
-
+ 
 Set-up is required for hardware to enable functionality between hardware and software.
+ 
 See:
+ 
 "Directory path to set-up documentation/video"
 
 [comment]: <> (* What hardware would the next team need to replicate your work? Include links to specific equipment when possible.)
