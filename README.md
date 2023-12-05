@@ -41,20 +41,15 @@ For introductory reference: https://www.youtube.com/watch?v=rmLng9xsdpw&t=29s an
 
 Hardware required is listed via Itemized-Budget.csv
  
-See:
- 
-2022 - 2023 Documentation/Research-Citations-Dump/Itemized-Budget.csv
+See:    2022 - 2023 Documentation/Research-Citations-Dump/Itemized-Budget.csv
  
 The 2022 - 2023 XR capstone team provided their hardware.
 Future teams may need to request an order form to acquire the necessary hardware to replicate the project.
- 
-Teams may opt for an alternative option, but further testing is required for compatibility.
+Teams may opt for an alternative option, but further testing is required for compatibility. 
  
 Set-up is required for hardware to enable functionality between hardware and software.
  
-See:
- 
-"Directory path to set-up documentation/video"
+See:    "Directory path to set-up documentation/video"
 
 [comment]: <> (* What hardware would the next team need to replicate your work? Include links to specific equipment when possible.)
 [comment]: <> (* Who has the equipment [professor, stakeholder, etc...]? Do they need to purchase anything?)
@@ -64,17 +59,16 @@ See:
 # Software Dependencies
 
 Software required is listed via Itemized-Budget.csv
-See:
-2022 - 2023 Documentation/Research-Citations-Dump/Itemized-Budget.csv
-
+ 
+See:    2022 - 2023 Documentation/Research-Citations-Dump/Itemized-Budget.csv
+ 
 The 2022- 2023 XR capstone team was provided a student plan version of each software.
 Future teams may need to request an order form to acquire the necessary software to replicate the project.
-
 Teams may opt for an alternative option, but further testing is required for compatibility.
-
+ 
 Set-up is required for software to enable functionality between hardware and software.
-See:
-"Directory path to set-up documentation/video"
+ 
+See:    "Directory path to set-up documentation/video"
 
 [comment]: <> (* Is there any software necessary to replicate your work?)
 [comment]: <> (* Is the software free? If you needed a license, how did you get access?)
@@ -86,8 +80,8 @@ See:
 # Replication
 
 To replicate the 2022 - 2023 XR capstone team's project
-See:
-"Directory path to set-up documentation/video"
+ 
+See:    "Directory path to set-up documentation/video"
 
 [comment]: <> (* How should the next team run your work?)
 [comment]: <> (* How would someone know if they successfully replicated your work? What results should they see?)
