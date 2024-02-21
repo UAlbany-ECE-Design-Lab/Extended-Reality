@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_UI.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Main_Menu.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Components.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/FirstPerson/Maps/FirstPersonMap.umap"
+			]
+		}
+	]
+}
