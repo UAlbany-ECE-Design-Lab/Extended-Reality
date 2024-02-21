@@ -1,0 +1,7 @@
+2/6/24
+Start time 12:00 Lunch Break 2:30-3:00 End time 
+Formatted Flash Drive to be able to continue work outside of ETEC 192 assigned workstation computer
+Finished creating an interactable light switch in FPV
+	Blueprint practice
+Created a Interactable UI template for VR
+	Issue with collision since video tutorials are outdated
