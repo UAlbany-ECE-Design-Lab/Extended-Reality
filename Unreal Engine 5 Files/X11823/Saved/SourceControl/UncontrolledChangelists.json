@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Blueprints/VRPawn.uasset",
+				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Input/Actions/IA_SmoothMove.uasset",
+				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Input/Actions/IA_SmoothTurn.uasset",
+				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Input/IMC_Default.uasset",
+				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/CAP.umap",
 				"C:/Users/DW711366/Documents/Unreal Projects/X11823/Content/CAPSTONE/Resistor.uasset",
 				"C:/Users/DW711366/Documents/Unreal Projects/X11823/Content/CAPSTONE/Capacitor/Capacitor.uasset",
 				"C:/Users/DW711366/Documents/Unreal Projects/X11823/Content/CAP.umap",
