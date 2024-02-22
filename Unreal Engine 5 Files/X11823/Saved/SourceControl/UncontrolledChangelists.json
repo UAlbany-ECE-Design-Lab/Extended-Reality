@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Diego/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/CAP.umap",
+				"C:/Users/Diego/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Blueprints/VRPawn.uasset",
+				"C:/Users/Diego/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/CAPSTONE/poorlyDesignedObjByDiego/LightSwitch_BPOnly.uasset",
+				"C:/Users/Diego/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/CAPSTONE/poorlyDesignedObjByDiego/buttonToggle.uasset",
 				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Blueprints/VRPawn.uasset",
 				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Input/Actions/IA_SmoothMove.uasset",
 				"C:/Users/dt321284/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/X11823/Content/VRTemplate/Input/Actions/IA_SmoothTurn.uasset",
