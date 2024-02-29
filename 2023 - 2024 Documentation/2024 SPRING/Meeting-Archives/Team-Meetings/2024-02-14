@@ -1,0 +1,20 @@
+Week of February 12
+
+Diego - Focused on implementing hand to object collision
+* Created a functional button 
+* Implemented Actor to Actor interactions
+
+
+
+
+Joren - Focused on SPICE and a whole lot of research on NGSPice and how we coudl use that to simulate circuit schematics inside our environment.
+* I made a simple RC Transient Analysis on NGSpice
+- Thought of parsing a netlist file and importing it back to unreal but later learned that I can export a csv file from when I run a simulation on NGSpice and import that back to Unreal. 
+- The workflow for this simulation is to: 
+get data from asset, export as csv -> turn that csv into a netlist file -> simulate in spice platform (NGSpice) -> export it from spice as csv -> import it back to UE in csv
+
+
+
+Daniel - Migrated UE5 Projects to GitHub for ease of access
+* Drafted, Designing, and Implementation of UI Menus
+* Blueprint Research
