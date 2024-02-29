@@ -1,0 +1,7 @@
+February 2, 2024
+Meeting with our Stakeholder - Professor Dutta
+
+- He gave us a lot of pointers and helpful advice.
+- Introduced some SPICE software we could potentially use (PSpice, Cadence, etc.)
+- He wanted more visuals inside the environment. 
+- He suggested we could create an RLC circuit on VR that shows the bode plot once components with values snap together. (How do you generate that without the lag?)
