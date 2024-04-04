@@ -1,0 +1,13 @@
+January 30, 2024
+
+- Deciding on whether or not we want the circuit to be on the wall where each components snap to simulate. 
+- Use an array of numbers (values) for each resistor to determine its resistance values in the simulation. 
+- Made a blue print for light intensity
+- Created a button to collision boxes to manipulate light. Then tested its functionality (being able to toggle on and off)
+- We were able to implement blue prints to append light and other variables in our environment. <-- This could be a huge stepping stone to our foundation 
+when building the components to snap together. 
+
+Main Focus were:
+- Familiarize with SPICE API
+- Learn how to snpa all components when nearby
+- Do some toggles with light inside UE (basically just play around with it to get used to the environment)

@@ -1,0 +1,11 @@
+February 1, 2024
+
+Today is testing light functionality implemented using blue print so we can use that same structure to deal with different resistance values such that the higher the resistance, the dimmer the light gets. 
+
+- We decided to work individually on our own and worry about integrating everything together once we get a hang of it.
+
+Diego - Implement hand to object collision 
+Joren - Spice implementation for some basic circuit schematics
+Daniel - Implement UI
+
+Next week's agenda is to create EDR and slides for the presentation. 

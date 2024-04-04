@@ -5,16 +5,19 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Main_Menu.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Components.uasset",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Resistor.uasset",
+				"C:/Users/Daniel Wang/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Main_Menu.uasset",
+				"C:/Users/Daniel Wang/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Components.uasset",
 				"C:/Users/DW711366/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Components.uasset",
 				"C:/Users/DW711366/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Main_Menu.uasset",
 				"C:/Users/DW711366/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/FirstPerson/Maps/FirstPersonMap.umap",
 				"C:/Users/DW711366/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/gold.uasset",
 				"C:/Users/DW711366/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/purple.uasset",
-				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_UI.uasset",
-				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Main_Menu.uasset",
-				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_Components.uasset",
-				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/FirstPerson/Maps/FirstPersonMap.umap"
+				"C:/Users/ebo/Documents/GitHub/Extended-Reality/Unreal Engine 5 Files/Test_FPV_DW/Content/Capstone/Test_FPV_UI/Test_FPV_UI.uasset"
 			]
 		}
 	]
