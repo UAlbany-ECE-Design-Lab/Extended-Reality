@@ -1,0 +1,12 @@
+* Simple Voltage Divider Circuit Design
+
+*Voltage source is connected between node A and 0 (ground)
+V A 0 1
+
+* Resistor with a value of 1k is connected between node A and B
+R1 A B 1k
+
+* Resistor with a value of 2k is connected between node B and 0 (ground)
+R2 B 0 2k
+
+.end
