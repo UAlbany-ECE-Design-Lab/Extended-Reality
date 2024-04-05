@@ -1,0 +1,12 @@
+[
+	{
+		"Name": "obj1",
+		"Object Type": "Resistor",
+		"Value": 1000
+	},
+	{
+		"Name": "obj2",
+		"Object Type": "Resistor",
+		"Value": 100
+	}
+]
