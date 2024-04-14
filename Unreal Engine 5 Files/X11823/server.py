@@ -61,6 +61,34 @@ for node in analysisCurrent.branches.values():
 #************************************************
 ############################################################################
 
+# RC Circuit
+
+# figure, (ax1, ax2) = plt.subplots(2, figsize=(20,10))
+
+element_types = ('capacitor', 'inductor')
+"""
+for element_type in ('capacitor', 'inductor'):
+
+    circuit = Circuit(element_type.title())
+
+    source = circuit.PulseVoltageSource('vin','1', '0', initial_val=0@u_V, pulse_val=10@u_V, pulse_width=10@u_ms, period=20@u_ms)
+    circuit.R('1', '1', '2', 1@u_kOhm)
+
+    if element_type == 'capacitor':
+
+        element_type 
+
+
+"""
+
+
+
+
+###############################################################################
+
+# RL Circuit
+
+
 list = []
 
 while True:
@@ -78,8 +106,14 @@ while True:
         client.close()
         sys.exit()
     else:
-        
-        if val[0] == 'V':
+        if val == 'VoltageDivider':
+            client.send(b'Compute: VoltageDivder')
+        elif val == 'RCCircuit':
+            client.send(b'Compute: RCCircuit')
+        elif val == 'RLCircuit':
+            client.send(b'Compute: RLCircuit')
+
+        elif val[0] == 'V':
             print('Voltage')
             print(val)
             list.append(val)
@@ -132,6 +166,7 @@ while True:
 
                 print(computeString)
                 client.send(computeString.encode())
+
             else:
                 client.send(b'Compute: No components')
          
