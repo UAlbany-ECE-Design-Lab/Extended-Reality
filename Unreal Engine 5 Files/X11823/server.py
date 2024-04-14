@@ -142,7 +142,7 @@ print(circuit)
 
 print(format_output(analysis))
 #************************************************
-
+"""
 # Current
 #************************************************ 
 circuitCurrent = Circuit('Current Divider')
@@ -162,7 +162,7 @@ analysisCurrent = simulatorCurrent.operating_point()
 
 for node in analysisCurrent.branches.values():
     print('Node {}: {:5.4f} mA'.format(str(node), float(node)*10000))
-
+"""
 list = []
 
 while True:
