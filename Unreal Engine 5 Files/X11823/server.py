@@ -12,34 +12,33 @@ from scipy.optimize import curve_fit
 
 figure, (ax1, ax2) = plt.subplots(2, figsize=(20, 10))
 
-###################################################################################
+########################################################################################################
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(('127.0.0.1',5001))
 
 server.listen()
-"""
-## RC Circuit Example
+###########################################################################################
+## RC Circuit Example Preset Circuits
 #########################################################################################
 print('RC Circuit')
 circuitRC = Circuit('RC')
 simulatorRC = circuitRC.simulator(temperature = 27, nominal_temperature = 27)
 
-source = circuitRC.PulseVoltageSource('input', 'in', circuitRC.gnd,
+sourceRC = circuitRC.PulseVoltageSource('input', 'in', circuitRC.gnd,
                 initial_value=0@u_V, pulsed_value=10@u_V,
                 pulse_width=10@u_ms, period=20@u_ms)
 
 circuitRC.R(1, 'in', 'out', 1@u_kΩ)
-element = circuitRC.C
-value = 1@u_uF
-element(1, 'out', circuitRC.gnd, value)
+circuitRC.C(1, 'out', circuitRC.gnd, 1@u_uF)
+
 tau = circuitRC['R1'].resistance * circuitRC['C1'].capacitance
 
 step_time = 10@u_us
-analysis = simulatorRC.transient(step_time=step_time, end_time=source.period*3)
+analysis = simulatorRC.transient(step_time=step_time, end_time=sourceRC.period*3)
 
 def out_voltage(t, tau):
-    return float(source.pulsed_value) * (1 -  np.exp(-t / tau))
+    return float(sourceRC.pulsed_value) * (1 -  np.exp(-t / tau))
 
 i_max = int(5 * tau / float(step_time))
 popt, pcov = curve_fit(out_voltage, analysis.out.abscissa[:i_max], analysis.out[:i_max])
@@ -65,8 +64,7 @@ ax.legend(('Vin [V]', 'Vout [V]', 'I'), loc=(.8,.8))
 
 plt.tight_layout()
 plt.show()
-####################################################
-
+#########################################################################################
 ## RL Circuit Example
 #########################################################################################
 print('RL Circuit')
@@ -114,7 +112,7 @@ ax.legend(('Vin [V]', 'Vout [V]', 'I'), loc=(.8,.8))
 plt.tight_layout()
 plt.show()
 ####################################################
-"""
+
 
 # Example of node voltage and current
 ####################################################################################
@@ -180,9 +178,11 @@ while True:
         client.close()
         sys.exit()
     else:
-        if val == 'VoltageDivider':
+        ############################################################################################
+        #Presets
+        """if val == 'VoltageDivider':
 
-            client.send(b'Compute: VoltageDivder')
+            client.send(b'Compute: VoltageDivider')
             circuit = Circuit('Voltage Divider')
             circuit.V('1', '1', '0', 5@u_V)
             circuit.R('1', '1', '2', .1@u_kOhm)
@@ -268,9 +268,9 @@ while True:
             ax.set_ylabel('[V]')
             ax.legend(('Vin [V]', 'Vout [V]', 'I'), loc=(.8,.8))
             plt.tight_layout()
-            plt.show()
+            plt.show()"""
 
-        elif val[0] == 'V':
+        if val[0] == 'V':
             print('Voltage')
             print(val)
             list.append(val)
