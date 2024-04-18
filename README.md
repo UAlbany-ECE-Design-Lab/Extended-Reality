@@ -22,7 +22,7 @@ For introductory reference: https://www.youtube.com/watch?v=rmLng9xsdpw&t=29s an
 //Include a very brief description [a couple sentences] of your project here. We will use this as the GitHub repository description.)
 
 # Repository Contents
-
+Read the transition document to set up the environment.
 * **Design-Documentation:** Contains .pdf versions of all design documentation.
 * **Meeting-Archives:** Contains notes for all XR capstone meetings.
 * **Presentations:** Contains .pdf and .ppt versions of all presentations.
