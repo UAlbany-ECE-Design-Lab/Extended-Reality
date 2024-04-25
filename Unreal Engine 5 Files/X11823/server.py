@@ -12,16 +12,12 @@ from scipy.optimize import curve_fit
 
 figure, (ax1, ax2) = plt.subplots(2, figsize=(20, 10))
 
-########################################################################################################
+#######################################################################################
 
-#### DW
-
-import matplotlib.pyplot as plt
 
 import PySpice.Logging.Logging as Logging
 logger = Logging.setup_logging()
 
-from PySpice.Probe.Plot import plot
 
 
 from scipy.optimize import curve_fit
@@ -285,8 +281,18 @@ while True:
     else:
         ############################################################################################
         #Presets
+        """if val == 'VoltageDivider':
+
+            client.send(b'Compute: VoltageDivider')
+            circuit = Circuit('Voltage Divider')
+            circuit.V('1', '1', '0', 5@u_V)
+            circuit.R('1', '1', '2', .1@u_kOhm)
+            circuit.R('2', '2', '0', 1@u_kOhm)
+            simulator = circuit.simulator(temprature = 27, nominal_temprature = 27)
+            analysis = simulator.operating_point()
+            print(circuit)
+            print(format_output(analysis))
         
-        """
         elif val == 'RCCircuit':
 
             client.send(b'Compute: RCCircuit')
@@ -299,6 +305,7 @@ while True:
             circuitRC.R(1, 'in', 'out', 1@u_kΩ)
             element = circuitRC.C
             value = 1@u_uF
+            # tau = RC = 1 ms
             element(1, 'out', circuitRC.gnd, value)
             tau = circuitRC['R1'].resistance * circuitRC['C1'].capacitance
             step_time = 10@u_us
@@ -365,19 +372,7 @@ while True:
             plt.tight_layout()
             plt.show()"""
 
-        if val == 'VoltageDivider':
-
-            client.send(b'Compute: VoltageDivider')
-            circuit = Circuit('Voltage Divider')
-            circuit.V('1', '1', '0', 5@u_V)
-            circuit.R('1', '1', '2', .1@u_kOhm)
-            circuit.R('2', '2', '0', 1@u_kOhm)
-            simulator = circuit.simulator(temprature = 27, nominal_temprature = 27)
-            analysis = simulator.operating_point()
-            print(circuit)
-            print(format_output(analysis))
-
-        elif val[0] == 'V':
+        if val[0] == 'V':
             print('Voltage')
             print(val)
             list.append(val)
@@ -433,60 +428,7 @@ while True:
 
             else:
                 client.send(b'Compute: No components')
-
-########################################### DW
-
-        elif val == 'RCCircuit':
-            print('RC Circuit')
-            circuitRC = Circuit('RC')
-            simulatorRC = circuitRC.simulator(temperature = 27, nominal_temperature = 27)
-
-            source = circuit.PulseVoltageSource('input', 'in', circuit.gnd,
-                           initial_value=0@u_V, pulsed_value=10@u_V,
-                           pulse_width=10@u_ms, period=20@u_ms)
-
-            circuitRC.R(1, 'in', 'out', 1@u_kΩ)
-            element = circuitRC.C
-            value = 1@u_uF
-            # tau = RC = 1 ms
-            element(1, 'out', circuit.gnd, value)
-            tau = circuit['R1'].resistance * circuit['C1'].capacitance
-
-            step_time = 10@u_us
-            analysis = simulatorRC.transient(step_time=step_time, end_time=source.period*3)
-
-            def out_voltage(t, tau):
-                float(source.pulsed_value) * (1 -  np.exp(-t / tau))
-            
-            i_max = int(5 * tau / float(step_time))
-            popt, pcov = curve_fit(out_voltage, analysis.out.abscissa[:i_max], analysis.out[:i_max])
-            tau_measured = popt[0]
-
-            print('tau {0} = {1}'.format('capacitor', tau.canonise().str_space()))
-            print('tau measured {0} = {1:.1f} ms'.format('capacitor', tau_measured * 1000))
-
-            ax = ax1
-            title = "Capacitor: voltage is constant"
-
-            ax.set_title(title)
-            ax.grid()
-            current_scale = 1000
-            ax.plot(analysis['in'])
-            ax.plot(analysis['out'])
-            # Fixme: resistor current, scale
-            ax.plot(((analysis['in'] - analysis.out)/circuit['R1'].resistance) * current_scale)
-            ax.axvline(x=float(tau), color='red')
-            ax.set_ylim(-11, 11)
-            ax.set_xlabel('t [s]')
-            ax.set_ylabel('[V]')
-            ax.legend(('Vin [V]', 'Vout [V]', 'I'), loc=(.8,.8))
-            #o#
-
-            plt.tight_layout()
-            plt.show()
-
-###################################
-        
+                        
         else:
             print('Not a valid component')
 
